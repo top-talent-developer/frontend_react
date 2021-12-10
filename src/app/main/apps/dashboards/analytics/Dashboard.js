@@ -104,7 +104,8 @@ const Header = () => {
                                 <div className="nk-header-tools">
                                     <ul className="nk-quick-nav">
                                         <li className="dropdown notification-dropdown">
-                                            <a href="#" className="dropdown-toggle nk-quick-nav-icon" data-toggle="dropdown">
+                                            <a href="#"  className="dropdown-toggle nk-quick-nav-icon" data-toggle="dropdown">
+                                               
                                                 <div className="icon-status icon-status-info"><em className="icon ni ni-bell"></em></div>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-xl dropdown-menu-right dropdown-menu-s1">
@@ -116,6 +117,7 @@ const Header = () => {
                                                     <div className="nk-notification">
                                                         <div className="nk-notification-item dropdown-inner">
                                                             <div className="nk-notification-icon">
+                                                             
                                                                 <em className="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
                                                             </div>
                                                             <div className="nk-notification-content">
@@ -175,7 +177,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="hide-mb-sm"><a href="#" className="nk-quick-nav-icon"><em className="icon ni ni-signout"></em></a></li>
+                                        <li className="hide-mb-sm"><a href="http://137.184.68.110/login" className="nk-quick-nav-icon"><em className="icon ni ni-signout"></em></a></li>
                                         <li className="dropdown user-dropdown order-sm-first">
                                             <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                                                 <div className="user-toggle">
